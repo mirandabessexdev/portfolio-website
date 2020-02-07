@@ -1,0 +1,99 @@
+body{
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(#dfc7c1, #619196);
+  font-family: 'Stalemate', cursive;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h1{
+  margin-top: 0px;
+  font-size: 120px;
+}
+
+h2{
+  margin-top: -20px;
+  font-size: 30px;
+}
+
+.btn{
+  color: white;
+  border: none;
+  background-color: inherit;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.btn-div{
+  margin-top: -10px;
+}
+
+.abouticon {grid-area: abouticon;}
+.abouttext {grid-area: abouttext;}
+.projectsicon {grid-area: projectsicon;}
+.projecttext {grid-area: projecttext;}
+.contacticon {grid-area: contacticon;}
+.contacttext {grid-area: contacttext;}
+
+.grid-container{
+  display: grid;
+  grid-template-areas:
+    'abouticon projectsicon contacticon'
+    'abouttext projecttext contacttext';
+  grid-gap: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 0;
+
+}
+
+.grid-container > div {
+  text-align: center;
+  margin-top: -20px;
+  padding: -50px -10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu-icons{
+  margin-top: -150px;
+  height: 75px;
+}
+
+.game{
+  height: 400px;
+  width: 800px;
+  background-color: white;
+  display: inline-block;
+}
+
+
+.triangle-down-small {
+	width: 0;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #99aab5;
+}
+.triangle-down-medium {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #7289da;
+}
+.triangle-down-large {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-top: 150px solid #555;
+}

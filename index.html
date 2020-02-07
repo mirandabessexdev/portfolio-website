@@ -3,11 +3,77 @@
 
   <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Bungee|Bungee+Shade|Cabin+Sketch|Kalam|Londrina+Solid|Oswald|Press+Start+2P|Stalemate|Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
+<script src="https://kit.fontawesome.com/2440136925.js" crossorigin="anonymous"></script>
   </head>
 
-  <body>
-    <h1>Hello Plunker!</h1>
+  <body onload="startGame()">
+    <div class="btn-div">
+
+    <button class="btn" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()"><i class="fas fa-long-arrow-alt-left"></i></button>
+    <button class="btn" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()"><i class="fas fa-long-arrow-alt-right"></i></button><br><br>
+
+    </div>
+
+    <h1 style="font-family: 'Londrina Solid', cursive;;">I'm Miranda.</h1>
+    <div class="grid-container">
+      <div class="abouticon">
+        <img class="menu-icons" src="aboutme.png">
+      </div>
+      <div class="abouttext">About
+      </div>
+      <div class="=projecticon">
+        <img class="menu-icons" src="projects.png">
+      </div>
+      <div class="projecttext">Projects
+      </div>
+      <div class="contacticon">
+        <img class="menu-icons" src="contactme.png">
+      </div>
+      <div class="contacttext">Contact
+      </div>
+    </div>
+
+
+    <!--
+    <img class="menu-icons" src="aboutme.png"></img>About
+    <img class="menu-icons" src="projects.png"></img>Projects
+    <img class="menu-icons" src="contactme.png"></img>Contact -->
+
+
+    <!-- <div style="text-align:center;width:480px;">
+  <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+  <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+  <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+  <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+</div> -->
+
+    <h2 style="font-family: 'Bungee Shade', cursive;">A Full Stack Developer</h2>
+    <!-- <h1 style="font-family: 'Stalemate', cursive;">I'm Miranda.</h1> -->
+
+
+
+
+
+    <!-- <div id="top-panel"></div>
+    <div id="blue-top"></div>
+    <div id="pink-top"></div>
+    <div id="purple-top"></div>
+    <div id="name-panel">
+      <img src="photo2.jpg" height="300"></img>
+      <h1>I'm Miranda.</h1>
+      <h3>A full stack developer.</h3>
+    </div>
+    <div id="purple-bottom"></div>
+    <div id="pink-bottom"></div>
+    <div id="blue-bottom"></div>
+    <div id="bottom-panel"> -->
+      <!-- <div class="triangle-down-small"></div>
+      <div class="triangle-down-medium"></div>
+      <div class="triangle-down-large"></div> -->
+    <!-- </div> -->
+
   </body>
 
 </html>
